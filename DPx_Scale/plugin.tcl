@@ -99,6 +99,7 @@ namespace eval ::plugins::${plugin_name} {
     set ::DPx_Scale_settings(saver_scale_display_on) 0
     set ::DPx_Scale_settings(Insight_scale_display_on) 0
     set ::DPx_scale_insight_pages ""
+    set ::DPx_insight_fill ""
     if {$::settings(skin) == "Insight Dark"} {
         set ::DPx_scale_insight_pages "off espresso_3"
         set ::DPx_insight_fill #373d42
