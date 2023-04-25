@@ -4,7 +4,7 @@ namespace eval ::plugins::${plugin_name} {
     # These are shown in the plugin selection page
     variable author "Damian"
     variable contact "via Diaspora"
-    variable version 1.0
+    variable version 1.1
     variable description "Display the scale"
 
 
@@ -168,7 +168,7 @@ namespace eval ::plugins::${plugin_name} {
                 dui item config DPx_scale_settings DPx_ss_scale_setting_button_on* -state normal
                 dui item config DPx_scale_settings DPx_ss_scale_setting_button_off* -state hidde
             }
-            dui item config DPx_scale_settings DPx_ss_scale_setting_button_on* -initial_state normaln
+            dui item config DPx_scale_settings DPx_ss_scale_setting_button_on* -initial_state normal
             dui item config DPx_scale_settings DPx_ss_scale_setting_button_off* -initial_state hidden
             dui item config saver DPx_ss_button_live* -initial_state normal
             dui item config saver DPx_ss_button_sleep* -initial_state normal
